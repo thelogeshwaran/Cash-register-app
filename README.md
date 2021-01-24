@@ -13,6 +13,6 @@ Here is the picture about the app..!!
 * It will ask the user to enter the bill amount and the amount given by the customer.
 * Then it will tell you the balance amount and how many notes you have to give to the customer.
 
-##Project Link
+## Project Link
 
 *  https://cash-register-log.netlify.app/
