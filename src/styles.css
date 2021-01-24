@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-color: #ebebf3;
+}
+.box {
+  width: 30%;
+  height: 70%;
+  background-color: white;
+
+  border: solid 1px;
+  border-color: white;
+  border-radius: 1rem;
+
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 1px #ebebf3;
+  position: absolute;
+  left: 35%;
+  margin: auto;
+  margin-top: 3%;
+  z-index: 1;
+}
+.red {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #f161a3;
+  position: absolute;
+  left: 25%;
+  top: 1%;
+}
+.orange {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #fa7c64;
+  position: absolute;
+  right: 25%;
+  bottom: 2%;
+  z-index: 0;
+}
+
+#heading {
+  margin: auto;
+  padding: 0.5rem;
+}
+#bill,
+#given {
+  height: 35px;
+  width: 50%;
+  border-color: transparent;
+  border-bottom-color: #b4b4bc;
+  padding: 0.3rem;
+  margin-top: 1rem;
+}
+
+.button {
+  background-color: #fa7c64;
+  height: 10px;
+  width: 50%;
+  border-color: transparent;
+  border-radius: 6px;
+  color: white;
+  padding: 0.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  margin: 1rem;
+}
+.button:hover {
+  background-color: #83a4d4;
+  transform: scaleX(1.1) scaleY(1.2);
+}
+.instruction {
+  border: solid 1px;
+  border-color: transparent;
+  width: 70%;
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+  border-bottom-color: #b4b4bc;
+  border-top-color: #b4b4bc;
+  padding: 0.3rem;
+}
+#notes {
+  padding-left: 30%;
+  text-align: left;
+}
+.footer {
+  width: 30%;
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  padding: 0;
+}
+
+.logo {
+  display: inline;
+  padding: 0rem 0.1rem;
+}
+.list {
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+  #heading {
+    font-size: 1.5rem;
+  }
+  .box {
+    width: 60%;
+    height: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    left: 20%;
+    margin-top: 5%;
+    z-index: 1;
+  }
+  #bill,
+  #given {
+    height: 35px;
+    width: 50%;
+    border-color: transparent;
+    border-bottom-color: #b4b4bc;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+  }
+  .red {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 5%;
+    top: 1%;
+  }
+  .orange {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 2%;
+    top: 95%;
+  }
+  .footer {
+    width: 70%;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 110%;
+  }
+  .logo {
+    height: 5rem;
+    width: 5rem;
+    display: inline;
+    padding: 1rem 0.5rem;
+  }
+}
