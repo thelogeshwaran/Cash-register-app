@@ -5,9 +5,9 @@ Here is the picture about the app..!!
 ![Screenshot](/src/screenshot.png)
 
 ## Build with
-1.Vanilla JS
-2.html
-3.CSS
+* 1.Vanilla JS
+* 2.html
+* 3.CSS
 
 # Description
 * It will ask the user to enter the bill amount and the amount given by the customer.
